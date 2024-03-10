@@ -10,7 +10,7 @@ async function convertHtmlToPdf(htmlFilePath, pdfFilePath) {
     await browser.close();
 }
 
-const directoryPath = '/Users/waterboy/Desktop/ESD Case/voiceconvert/Takeout/Texts';
+const directoryPath = /* Insert Path to Local Directory containing text files here - output files will go to the same directory */;
 
 const files = fs.readdirSync(directoryPath).filter(file => path.extname(file) === '.html');
 
