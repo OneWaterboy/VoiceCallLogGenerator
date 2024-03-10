@@ -1,5 +1,5 @@
 # Google Voice Call Log Generator
-Google Voice provides all phone records as html files and does not provide them in a standard spreadsheet format. This script run using Node.js cycles through a folder containing all of the output HTML files and then exports them to a CSV file.
+Google Voice provides all phone records (both calls and texts) as HTML files and does not provide them in a standard spreadsheet format. These scripts run using Node.js cycle through a folder containing all of the output HTML files.
 
 ## Call Logs
 jsCsvExport.js - Generates call logs an exports them as a CSV File
