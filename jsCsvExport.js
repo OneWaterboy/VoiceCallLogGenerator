@@ -3,8 +3,8 @@ const path = require('path');
 const jsdom = require('jsdom');
 const { JSDOM } = jsdom;
 
-const directoryPath = path.join('Local Path to Google Voice Call Log needs to go here');
-const csvFilePath = path.join('Output path for local directory goes here ---> Name of file can be changed after the comma if needed' , 'GoogleVoiceCallLog.csv');
+const directoryPath = path.join(/* Local Path to Google Voice Call Log needs to go here */);
+const csvFilePath = path.join(/* Chosen Output path for local directory goes here' , 'GoogleVoiceCallLog.csv' */);
 
 fs.readdir(directoryPath, function (err, files) {
     if (err) {
